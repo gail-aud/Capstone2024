@@ -1,0 +1,188 @@
+/***The code below will edit the text for the product***/
+.page-title-product-text {
+  font-family: 'Playfair Display', serif;
+  color: #333;
+  font-weight: 500;
+  font-size: 2.5em;
+  margin-top: 10px;
+}
+
+.page-background{
+  background-color: #f0f0f0;
+  padding-top: 4%;
+}
+
+.page-acidity-text{
+  font-family: 'Playfair Display', serif;
+  color: #333;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.page-product-price-text{
+  font-family: 'Playfair Display', serif;
+  color: #333;
+  font-size: 1.6em;
+}
+
+.page-product-text{
+  font-family: 'Vazirmatn', serif;
+  color: #333;
+
+}
+
+.select-bean-title {
+  font-family: 'Playfair Display', serif;
+  color: #333;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);; 
+  padding-bottom: 10px; 
+  margin-bottom: 20px; 
+}
+/*The code below edits the bean type button*/
+.beanTypeButton {
+    font-family: 'Vazirmatn', serif;
+    color: #333;
+    border: 2px solid transparent; 
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    margin: 5px;
+    font-size: 1.0em; 
+}
+  
+.beanTypeButton.selected {
+    border-color: #3D8244; 
+}
+
+/*This edits the size of the description of the notes*/
+.descriptionnotes {
+    max-width: 500px;
+    border-radius: 5px;
+
+}
+
+
+/* This edits the quantity button and adds more space below */
+.cart-item-quantity-page {
+  display: flex;
+  margin: 10px 0 20px; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+/*Edits the buttons for the quantity*/
+.cart-item-quantity-page button {
+  font-family: 'Vazirmatn', serif;
+  padding: 3px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #333;
+  color: #f0f0f0;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+
+.cart-item-quantity-page span {
+  min-width: 20px; 
+  display: inline-block;
+  text-align: center;
+}
+/* Adjusts the Add to Cart button */
+.addToCartButton {
+  font-family: 'Playfair Display', serif;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #E6CE69;
+  color: #333;
+  border: none;
+  transition: background-color 0.3s ease;
+  display: block;
+  width: 56%;
+  border-radius: 5px;
+  margin-bottom: 70px; /* Add this line to create space between the button and the footer */
+}
+
+.productContainer {
+  display: flex;
+  align-items: flex-start; 
+  justify-content: space-between; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 20px; 
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  position: relative; 
+  padding: 0 30px; 
+}
+
+.productDetails {
+  flex: 1; 
+  padding-left: 20px; 
+  max-width: 500px; 
+  color: #333;
+}
+
+
+/* Style the arrow buttons */
+.arrowButton {
+  position: absolute;
+  top: 50%; 
+  transform: translateY(-50%); 
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: #333; 
+  border: 2px solid #333; 
+  border-radius: 60%; 
+  width: 40px; 
+  height: 40px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0; 
+  line-height: 30px; 
+  font-weight: 100;
+  cursor: pointer;
+  font-size: 25px; 
+  z-index: 2;
+  transition: background-color 0.3s ease;
+}
+
+
+.arrowButton:hover {
+  background-color: rgba(230, 206, 105, 1); 
+  color: #333;
+}
+
+
+.arrowButton.left {
+  left: 30px; 
+}
+
+/* Adjust the right arrow button to be positioned on the right side of the image */
+.arrowButton.right {
+  right: 30px; 
+}
+
+.imageWrapper {
+  display: inline-block; 
+  position: relative; 
+  line-height: 0; 
+}
+
+.productDetails {
+  flex: 1;
+  padding-right: 20px;
+}
+
+/* Adjust your media queries for responsiveness */
+@media (min-width: 1200px) {
+  .productContainer {
+    justify-content: center; 
+  }
+}
+
